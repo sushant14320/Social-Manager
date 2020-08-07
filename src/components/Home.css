@@ -1,0 +1,516 @@
+/*-----------------------------------------------------------*/
+/*BASIC SETUP*/
+/*-----------------------------------------------------------*/
+* {
+    /* background-color: #000; */
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+        /* box-sizing: border-box; */
+    /* background-image: url(images/land3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    }
+    
+  
+    
+    /*-----------------------------------------------------------*/
+    /*REUSABLE COMPONENTS*/
+    /*-----------------------------------------------------------*/
+   .landimg img{
+       width:1349px;
+       height:650px;
+   }
+    .hnavbar{
+        position: relative;
+        top : 0;
+        width:100%;
+    }
+  
+
+    .hrow{
+        max-width: 1140px;
+        margin: 0 auto; 
+        position: relative;
+        bottom: 1122px;
+    }
+    .landing{
+        background-color: #fff;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #555;
+        font-size: 20px;
+        font-weight: 300;
+        text-rendering: optimizeLegibility;
+    }
+    
+    section{
+        padding: 80px 0;
+    }
+    
+    /*-------------HEADINGS-----------*/
+    
+    /* h1,
+    h2,
+    h3{
+        font-weight: 300;
+        text-transform: uppercase;
+    } */
+    
+    h1{
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #000;
+        word-spacing: 4px;
+        font-size: 240%;
+        letter-spacing: 1px;
+    }
+    
+    /* h2{
+        font-size: 180%;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+        color: white;
+    } */
+    
+    /* h2:after{
+        display: block;
+        height: 2px;
+        background-color :#f1805e;
+        content: " ";
+        width: 100px;
+        margin: 0 auto;
+        margin-top: 30px;
+    } */
+    
+    h3{
+        font-size: 110%;
+        margin-bottom: 50px;
+    }
+    /*---------PARAGRAPHS-----------*/
+    .long-description p{
+        color: black;
+        width: 600px;
+        position: relative;
+        bottom:280px;
+        left:28%;
+        text-align: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .desc-head h2{
+        color: #184269;
+        position: relative;
+        bottom:310px;
+        left:460px;
+        font-size: 36px;
+        font-family: cursive;    
+    }
+    
+    /*---------BUTTONS-----------*/
+    
+    .login:link,
+    .login:visited,
+    input[type=submit],
+    button{
+        display: inline-block;
+        padding: 10px 30px;
+        font-weight: 300;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 200px;
+        transition: background-color 0.2s,border 0.2s,color 0.2s;
+        position: relative;
+        left:50px;
+    }
+    
+    .l1:link,
+    .l1:visited,
+    input[type=submit],
+    button{
+        border: 1px solid silver;
+        color: white;
+        margin-right : 15px;
+    }
+     
+    .login:hover,
+    .login:active,
+    input[type=submit]:hover,
+    input[type=submit]:active,
+    button:hover,
+    button:active{
+        background: white;
+        color: black;
+    }
+    
+    .l1:hover,
+    .l1:active,
+    input[type=submit]:hover,
+    input[type=submit]:active,
+    button:hover,
+    button:active{
+        background: white;
+        color: black;
+    }
+    
+   
+    
+    /*-----------------------------------------------------------*/
+    /*HEADER*/
+    /*-----------------------------------------------------------*/
+    header{
+       
+        margin-top: 200;
+        background-color: #fff;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    
+    .navheader{
+       
+        margin-top: 200;
+        background-color: #fff;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .mainhead h1{
+        color: white;
+        font-family: cursive;
+        position: relative;
+        bottom:520px;
+        left:40px;
+        font-size: 45px;
+    }
+    
+    .main-nav{    
+         float: right;
+         list-style: none;
+         position: relative;
+         bottom: 725px;
+    }
+    
+    .main-nav li{
+        display: inline-block; 
+         margin-left: 35px;  
+         margin-bottom: 10px;
+         position: relative;
+         left:140vh; 
+    }
+    .Title{
+        position: relative;
+        bottom:640px;
+        font-size: 60px;
+        margin-left: 30px;
+        letter-spacing: 0.1em;
+    }
+   
+    .hnav-ani:link,
+    .hnav-ani:visited{
+        text-decoration: none;
+        padding: 8px 15px;
+        color: #000;
+        text-transform: uppercase;
+        font-size: 90%;
+        border-bottom: 2px transparent;
+        transition: border-bottom 0.2s;
+    }
+    
+    .hnav-ani:hover,
+    .hnav-ani:active{
+        border-bottom: 2px solid #f1805e;
+    
+    }
+    
+    /*-----------------------------------------------------------*/
+    /*FORM*/
+    /*-----------------------------------------------------------*/
+    .contact-form{
+        width: 60%;
+        margin: 0 auto;
+    }
+   /* .email {
+       width:1000px;
+   }
+     */
+    textarea{
+        width : 100%;
+        padding: 7px;
+        border-radius: 10px;
+        border: 1px solid #f1805e;
+        height: 100px;
+        margin: 10px auto;
+    }
+    
+    /*-----------------------------------------------------------*/
+    /*SIDEBAR*/
+    /*-----------------------------------------------------------*/
+    
+    .hsidebar{
+        border-right : solid gray 1px;
+    }
+    
+    .htwitter{
+        font-size: 10%;
+    }
+    
+    .hcreatepost{
+        padding-left: 10px;
+    }
+    
+    /*-----------------------------------------------------------*/
+    /*REDBUTTON*/
+    /*-----------------------------------------------------------*/
+    
+    .hredbtn:link,
+    .hredbtn:visited{
+        display: inline-block;
+        padding: 10px 30px;
+        font-weight: 300;
+        text-decoration: none;
+        border-radius: 200px;
+        transition: background-color 0.2s,border 0.2s,color 0.2s;
+        
+    }
+    
+    .hredbtn-full:link,
+    .hredbtn-full:visited{
+        background-color: #FF0000;
+        border: 1px solid #FF0000;
+        color: #fff;
+        margin-right : 15px;
+    }
+    
+    .hredbtn-ghost:link,
+    .hredbtn-ghost:visited{
+        border: 1px solid #FF0000;
+        color: #FF0000;
+    }
+    
+    .hredbtn:hover,
+    .hredbtn:activ{
+        background-color: #FF0000;
+    }
+    
+    .hredbtn-full:hover,
+    .hredbtn-full:active{
+        border: 1px solid  #FF0000;
+    }
+    
+    .hredbtn-ghost:hover,
+    .hredbtn-ghost:active{
+        border: 1px solid  #FF0000;
+        color: #fff;
+    }
+   
+    .feature{
+        display: flex;
+        flex-direction: row;
+        font-family: cursive;
+        position: relative;
+        bottom:80px;
+    } 
+    
+   .feature1 {    
+       color: black;
+       width:320px;   
+       height:280px; 
+       position: relative;
+       left:200px;
+       border: 2px solid transparent;
+       border-image: linear-gradient(235deg,#e5e920,#010615,#34a8d6);
+       border-image-slice: 1;
+       padding-top: 22px;
+       padding-left: 22px;
+       padding-right: 10px;
+   }
+   .feature1 h3{
+       font-size: 30px;
+   }
+   .feature1 p{
+    position: relative;
+    bottom:35px;
+}
+   .feature2 {
+    color: black;
+    position: relative;
+    left:500px;
+    width:320px;
+    height:280px; 
+    border: 2px solid transparent;
+    border-image: linear-gradient(235deg,#dd3181,#010615,#46f040);
+    border-image-slice: 1;
+    padding-top: 20px;
+    padding-left: 22px;
+    padding-right: 20px;
+}
+.feature2 h3{
+    font-size: 29px;
+}
+.feature2 p{
+ position: relative;
+ bottom:35px;
+}
+
+.allapps{
+    position: relative;
+    bottom:70px;
+    left:540px;
+}
+
+
+
+
+
+/* login styles */
+
+.Maincontainer
+{
+    color: white;
+    background-color:whitesmoke;
+    width: 100%;
+   height: auto;
+}
+
+.welcome{
+color: rgb(113, 112, 119);
+margin-left: 180px;
+margin-top: 60px;
+}
+
+label{
+    color: white;
+}
+
+#standard-basis{
+    color: white;
+    /* background-color: white; */
+    border: 2px solid silver;
+}
+
+#sociologo
+{
+width:15%;
+margin-left: 96px;
+position: relative;
+bottom:64px;
+
+}
+
+#logoSocio{
+    background-color: white;
+}
+
+#btnLogIn{
+  display: inline-block;
+  color:white;
+  font-size: large;
+  width:27%;
+  border-radius: 2em;
+  margin-left: -49px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  bottom: 20px;
+  left:150px;
+}
+#btnLogIn:hover{
+  background: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#btnCancel{
+  display: inline-block;
+  color:white;
+  font-size: large;
+  width:27%;
+  border-radius: 2em;
+  margin-left: -49px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  bottom: 67px;
+  left:350px;
+}
+#btnCancel:hover{
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ #back{
+    
+    color:white;
+    font-size: large;
+    border-radius: 2em;
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right:380px;
+    bottom:800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px; 
+ } 
+ #back:hover{
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+#forgetPass
+{
+  text-decoration: none;
+  position: relative;
+  left:50px;
+  bottom:260px;
+}
+
+
+.Field_section{
+    border: 2px solid silver;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    bottom: 50px;
+    border-radius: 7px;
+}
+
+label{
+    color: white;
+}
+
+.para_login{
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 5px 2px 4px #330c0c;
+    font-family: cursive;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.No_acc{
+    margin-left: 135px;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 157px;
+    font-family: cursive;
+}
+
+#lo{
+    color: white;
+    
+}
+.email{
+    color: rgb(113, 112, 119);
+}
+.password{
+   
+        color: rgb(113, 112, 119);
+   
+}

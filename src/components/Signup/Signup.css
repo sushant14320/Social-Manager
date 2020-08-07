@@ -1,0 +1,128 @@
+.Maincontainer
+{
+    color: white;
+    background-color:whitesmoke;
+    width: 100%;
+   height: auto;
+}
+
+.welcome{
+color: white;
+margin-left: 142px;
+}
+
+label{
+    color: white;
+}
+
+ #email{
+    color: rgba(202, 198, 198,0.6);
+}
+
+#password{
+    color: rgba(202, 198, 198,0.6);
+}
+
+
+#standard-basis{
+    color: white;
+    /* background-color: white; */
+    border: 2px solid silver;
+}
+
+#sociologo
+{
+width:35%;
+margin-left: 178px;
+
+}
+
+
+
+
+#btnSignup{
+  margin-top:1em;
+  color:white;
+  font-size: large;
+  background-color:greenyellow;
+  padding :1em;
+  width:100%;
+  border-radius: 2em;
+  /* margin-top: 50px; */
+  margin-left: -47px; 
+  /* position: relative;
+  left: 40%; */
+  box-shadow: 2px 1px grey;
+  cursor: pointer;
+}
+#btnSignup:hover{
+  background-color:#081121 ;
+}
+#forgetPass
+{
+  text-decoration: none;
+  position: relative;
+  left:13em;
+}
+
+
+.Field_section{
+    border: 2px solid gold;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+label{
+    color: white;
+}
+
+.para_login{
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 5px 2px 4px #330c0c;
+}
+
+.No_acc{
+    position: relative;
+    left:40px;
+    letter-spacing: 2px;
+}
+
+#lo{
+    color: white;
+    
+}
+
+#backSignup{
+    color:white;
+    font-size: large;
+    border-radius: 2em;
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right:380px;
+    bottom:800px;
+    padding-top: 10px;
+    top: -925px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    text-decoration: none;
+}
+
+#backSignup:hover{
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ input{
+    width: 100%;
+    padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: white;
+  box-sizing: border-box;
+}

@@ -1,0 +1,149 @@
+.Maincontainer
+{
+    color: white;
+    background-color:whitesmoke;
+    background-image: url(../images/land3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 60px;
+}
+
+.welcome{
+    color: rgb(113, 112, 119);
+    margin-left: 180px;
+    margin-bottom: 70px;
+    position: relative;
+    top:65px;
+    }
+    
+    label{
+        color: white;
+    }
+    
+    #standard-basis{
+        color: white;
+        /* background-color: white; */
+        border: 2px solid silver;
+    }
+    
+    #sociologo
+    {
+    width:15%;
+    margin-left: 96px;
+}
+    
+    
+    #btnLogIn{
+      display: inline-block;
+      color:white;
+      background: transparent;
+      font-size: large;
+      width:27%;
+      border-radius: 2em;
+      margin-left: -49px;
+      cursor: pointer;
+      font-family: Arial, Helvetica, sans-serif;
+      position: relative;
+      bottom: 20px;
+      left:150px;
+    }
+    #btnLogIn:hover{
+      background: white;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #btnCancel{
+      display: inline-block;
+      background: transparent;
+      color:white;
+      font-size: large;
+      width:27%;
+      border-radius: 2em;
+      margin-left: -49px;
+      cursor: pointer;
+      font-family: Arial, Helvetica, sans-serif;
+      position: relative;
+      bottom: 67px;
+      left:350px;
+    }
+    #btnCancel:hover{
+        background: white;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+     #back{
+        color:white;
+        font-size: large;
+        border-radius: 2em;
+        border: 1px solid white;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        right:380px;
+        top:-810px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px; 
+     } 
+     #back:hover{
+        background: white;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+    #forgetPass
+    {
+      text-decoration: none;
+      position: relative;
+      left:50px;
+      bottom:260px;
+    }
+    
+    
+    .Field_section{
+        border: 2px solid silver;
+        padding-left: 40px;
+        padding-right: 40px;
+        position: relative;
+        bottom: 50px;
+        border-radius: 7px;
+    }
+    
+    label{
+        color: white;
+    }
+    
+    .para_login{
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-shadow: 5px 2px 4px #330c0c;
+        font-family: cursive;
+        text-align: center;
+        position: relative;
+        bottom: 30px;
+    }
+    
+    .No_acc{
+        margin-left: 135px;
+        letter-spacing: 2px;
+        position: relative;
+        bottom: 157px;
+        font-family: cursive;
+    }
+    
+    #lo{
+        color: white;
+        
+    }
+    .email{
+        color: rgb(113, 112, 119);
+    }
+    .password{
+       
+            color: rgb(113, 112, 119);
+       
+    }

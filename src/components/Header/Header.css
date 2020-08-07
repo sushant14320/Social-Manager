@@ -1,0 +1,89 @@
+.HeaderNav {
+    padding: 70px;
+    box-shadow: 5px 10px 8px #635f5f;
+    padding-bottom: 30px;
+    /* background-color: rgba(29, 27, 27, 0.829); */
+    background-color: white;
+    width: 100%;
+    
+    
+    
+    
+    
+}
+
+
+.Navlink{
+    display: block;
+    /* color: white; */
+    color: white;
+    text-align: center;
+    padding: 9px 48px;
+    font-size: 25px;
+    float: right;
+    text-decoration: none;
+    margin-top: -49px;
+    border: 3px solid #cfcfcf;
+    border-radius: 37px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+/* .Navlink:hover{
+    background-color: red;
+    overflow: hidden;
+} */
+
+ #onhoverS:hover{
+    background: rgba(243, 237, 237, 0.9);
+    color: black;
+}
+
+#onhoverL:hover{
+    background: rgba(243, 237, 237, 0.9);
+    color: black;
+}
+
+
+.logo{
+    display: block;
+    color: silver;
+    text-align: center;
+    padding: 12px 14px;
+    font-size: 45px;
+    float: left;
+    margin-left: 20px;
+    margin-top: -58px;
+    font-weight: bolder;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+		/* background: linear-gradient(to right, #e72a3a 10%, #fff 50%, #5bdaff 60%);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: rgb(7, 6, 6);
+		background-clip: text;
+		
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+        animation: textclip 1.5s linear infinite; */
+        
+        /* text-fill-color: transparent; */
+    }
+
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+
+    
+
+
+  
+
+
+
+  
