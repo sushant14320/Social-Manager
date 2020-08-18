@@ -5,7 +5,8 @@
     /* background-color: #000; */
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
+  
+   
         /* box-sizing: border-box; */
     /* background-image: url(images/land3.jpg);
     background-size: cover;
@@ -102,7 +103,7 @@
         font-family: Arial, Helvetica, sans-serif;
     }
     .desc-head h2{
-        color: #184269;
+        color: #283747;
         position: relative;
         bottom:310px;
         left:460px;
@@ -317,43 +318,69 @@
     
    .feature1 {    
        color: black;
-       width:320px;   
-       height:280px; 
+       width:360px;   
+       height:420px; 
        position: relative;
        left:200px;
-       border: 2px solid transparent;
-       border-image: linear-gradient(235deg,#e5e920,#010615,#34a8d6);
-       border-image-slice: 1;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
        padding-top: 22px;
        padding-left: 22px;
        padding-right: 10px;
+       transition: 1s ease;
    }
    .feature1 h3{
        font-size: 30px;
+       color: darkorange;
    }
    .feature1 p{
     position: relative;
     bottom:35px;
 }
+.feature1:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+#mp{
+    width:360px; 
+    height:180px;
+    position: relative;
+    right: 22px;
+    bottom:22px;
+}
    .feature2 {
     color: black;
     position: relative;
-    left:500px;
-    width:320px;
-    height:280px; 
-    border: 2px solid transparent;
-    border-image: linear-gradient(235deg,#dd3181,#010615,#46f040);
-    border-image-slice: 1;
+    left:430px;
+    width:360px;   
+    height:420px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-top: 20px;
     padding-left: 22px;
     padding-right: 20px;
+    transition: 1s ease;
 }
 .feature2 h3{
     font-size: 29px;
+    color: rgb(87, 134, 163);
 }
 .feature2 p{
  position: relative;
  bottom:35px;
+}
+.feature2:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+#aa{
+    width:360px; 
+    height:180px;
+    position: relative;
+    right: 22px;
+    bottom:20px;
 }
 
 .allapps{

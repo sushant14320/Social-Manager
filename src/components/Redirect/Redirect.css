@@ -5,18 +5,14 @@
 }
 .BtnPost{
     
-        /* margin-top: 300px;*/
-        margin-left: -400px; 
         display: inline-block;
         color: white;
         font-size: 21px;
         position: relative;
         top: 30px;
-        left: 1215px;
-        width: 100px;
-        margin-bottom: 20px;
-        padding-bottom: 8px;
-        padding-top: 9px;
+        left: 825px;
+        width: 90px;
+        padding-right: 75px;
         background-color: #283747;
         font-weight: bold;
         border: 1px solid rgb(155, 184, 201);

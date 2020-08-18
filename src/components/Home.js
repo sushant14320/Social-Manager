@@ -5,6 +5,8 @@ import './Home.css';
 import pic from './images/allapps.jpg'
 import smoke from './images/smoke.mp4'
 import land from './images/land3.jpg'
+import mp from './images/mulplt.jpg'
+import aa from './images/aa.jpg'
 
 
 class Home extends React.Component{
@@ -48,7 +50,8 @@ class Home extends React.Component{
 
                     <div className='feature'>
                              <div className='feature1'>
-                                    <h3>Multiple Platforms !</h3> <br/>
+                             <img src={mp} alt='multiple-platforms' id="mp" />
+                                    <h3><u>Multiple Platforms !</u></h3> <br/>
                                     <p>
                                     You can find social media platforms here
                                     like facebook and twitter, we have included these two famous
@@ -57,25 +60,17 @@ class Home extends React.Component{
                              </div>  
 
                              <div className='feature2'>
-                                <h3>Anywhere Anytime !</h3><br/>
+                             <img src={aa} alt='anywhere-anytime' id="aa" />
+                                <h3><u>Anywhere Anytime !</u></h3><br/>
                                 <p>
-                                    No need to switch between devices and accounts, we're available on all the devices.
+                                    No need to switch between devices and accounts.
                                     You can create your content anywhere on any device
                                 </p>
                             </div>
                     </div>                   
                     </div>            
                   
-              {/* <section>
-              <video src={smoke} autoPlay muted></video>
-                  <h1>
-                      <span>S</span>
-                      <span>O</span>
-                      <span>C</span>
-                      <span>I</span>
-                      <span>O</span>
-                  </h1>
-              </section> */}
+    
             </div>
         )
     }
