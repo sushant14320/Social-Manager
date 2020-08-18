@@ -1,0 +1,42 @@
+.main{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:300px;
+    height:300px;
+    position: relative;
+    left:650px;
+    top:150px;
+    /* background-color: #212F3C;
+    color: white; */
+}
+.userinfo{
+    position: relative;
+    left:100px;
+    margin-top: 20px;
+    top:10px;
+}
+#name{
+  position: relative;
+  right:20px;
+  top:160px;
+}
+#status{
+  position: relative;
+  right:20px;
+  top:160px;
+}
+#pro-pic{
+   position: relative;
+   bottom:80px;
+   width:100px;
+   height:100px;
+}
+#log {
+    position: relative;
+    top:126px;
+    left:60px;
+}
+.check{
+    position: relative;
+    top:228px;
+    right:80px;
+}

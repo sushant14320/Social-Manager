@@ -1,0 +1,27 @@
+.DashboardFooter
+{
+
+    /* background-image: url('../images/final3.jpg'); */
+     background-repeat:no-repeat;
+    position: fixed;
+    bottom: 0;
+    background-color: #212F3C;
+    color:white;
+    width:100%;
+    height: 40px;
+}
+#footerText
+{
+   
+text-align: center;
+position: relative;
+bottom: -5px;
+}
+
+@media screen and (max-width: 600px) 
+{
+    .DashboardFooter
+{
+     height: 3em;
+}
+}

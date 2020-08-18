@@ -4,6 +4,13 @@ import {NavLink} from 'react-router-dom';
 // import { getUserInfo, getPages } from '../../../services/auth'
 import Axios from 'axios';
 import './Redirect.css';
+//import firebaseApp from '../Services/firebaseConfig';
+import Modal from 'react-awesome-modal';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCheckCircle
+} from '@fortawesome/free-solid-svg-icons'
+
 
 
 class Redirect extends Component {
@@ -15,15 +22,30 @@ class Redirect extends Component {
             message:'',
             name:'',
             picture:'',
-            email:''
+            email:'',
+            visible : false
          }
          console.log(this.props.email);
     }
 
+    openModal() {
+      this.setState({
+          visible : true
+      });
+  }
+
+  closeModal() {
+      this.setState({
+          visible : false
+      });
+  }
+
+
+
+
     componentDidMount(access){
 
-
-
+      
      
 
       Axios.get(`https://graph.facebook.com/v7.0/me/accounts?access_token=EAAI5mxwgW1MBAKpW43RZCrnKcLdmZBpbYSzeLSY7Y4e1YplhUAXjta94rDTlvLMkG492pa6055NeQ6QPjuMeOKVX8AZADSOsKJcQeRtJ5ZBAsXtZAc6ZAFdVFpI485kOsN2rz1jZCVAR8fZAX77Sb5Jc8LPpo7nj2ZBnx9bIkKp2TZA7hcsbOTG3ZB1`)
@@ -55,6 +77,13 @@ class Redirect extends Component {
 
      post = () =>{
 
+    //   let FireData = firebaseApp.database().ref("/posts");
+    //   let PostData = FireData.push()
+
+    //   PostData.set({
+    //     post: this.state.message
+    // })
+
        
         Axios.post(`https://graph.facebook.com/622192698426061/feed?`,{
           message: this.state.message,
@@ -79,21 +108,39 @@ class Redirect extends Component {
     render() { 
         return (
         
-        <div>
+        <div className="maincontent">
+
+            {/* <NavLink id="LinkPost" to="/redirect">Past Post</NavLink>
+
+            <NavLink id="Link" to="/schedule">Past Post</NavLink> */}
+                <Modal visible={this.state.visible} width="500" height="250" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                    <div>
+                    <FontAwesomeIcon icon={faCheckCircle} color="green" style={{position:'relative',top:'40px',left:'220px'}} size='3x' className='check'/>
+                      <center>
+                     
+                        <h1 style={{marginTop:'65px'}}>Posted</h1>
+                        </center>
+                       <center>
+                        <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
+                        </center>
+                    </div>
+               </Modal>
 
 
 <div className="DivConatiner">
-        <h1 id="WlcUser">Welcome, {this.state.name}</h1>
-        <h3 id="WlcUser_2">Go ahead and POST !</h3>
+        
+        {/* <h1 id="WlcUser">Welcome, {this.state.name}</h1> */}
+        <h2 id="WlcUser_2">Go ahead and POST !</h2>
+
 </div>
 
 
 
-<section id="FlexDiv">           
+<section id="FlexDiv_createP">           
                   
-<textarea style={{}} type="textarea" id="txtArea" value={this.state.message} onChange={e =>this.handleChange(e)} />
+<textarea type="textarea" id="txtArea" placeholder="Type your message here" value={this.state.message} onChange={e =>this.handleChange(e)} />
                   
- <button  className="BtnPost" onClick={this.post}>post</button>
+ <button  className="BtnPost" onClick={this.post}>Post</button>
 
 </section>
 
@@ -102,5 +149,5 @@ class Redirect extends Component {
         );
     }
 }
- 
+// page access:EAAI5mxwgW1MBAG1OaueKWTxZCE2j6wZCr21sVkK9InLsOtudN7xgeikuaqzLeIZBwg9RSnvrGDZAj9wPOQCFhi0gUjuaWdOyBdic8soq2iMImkjUfy7lrH7jrBEYeS5TCriPsXDbIu9eThbGBjBFD99jvPWZBVYGkUQrW1k1wvfoOBmWTimqsSw9pNbsQuMV3dduGlrZCXzc8FW1g1AqI1ymTCRY3E1Q0ZD
 export default Redirect;

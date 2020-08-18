@@ -1,0 +1,124 @@
+.sideNav
+{
+font-size: 16px;
+box-sizing: border-box;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sidemenu{
+  position: sticky;
+  z-index: 1;
+  
+}
+#menu{
+  /* B2AA8E */
+      list-style: none;  
+      background-color:#212F3C ;
+      width: 15%;
+      height: 33em;
+      
+      position: fixed; 
+      bottom: 2em;
+      box-shadow: 2px 2px 2px #635f5f;  
+  }
+  /* for Menu Icon */
+  .fa-lg{
+  color: white;
+  }
+
+#menu-item
+{
+    color: whitesmoke;
+    text-decoration: none;
+    position: relative;
+    left: 30px;
+    width:500px;
+}
+#menu-item:hover
+{
+  color:black;
+}
+.menu-li{
+  position: relative;
+  right: 20px;
+  top:2em;
+  left: 5px;
+  padding:10px;
+
+}
+.menu-li:hover{
+  background-color: gray;
+  position: relative;
+  right: 20px;
+  top:2em;
+  box-shadow: 2px 2px 2px gray;
+}
+
+#MainContent{
+  display: flex;
+  /* position: relative;
+  bottom: 50px;
+  right: 40px; */
+  /* padding: 40px; */
+  /* overflow-x: hidden;
+  height: fit-content;
+  width: 1280px; */
+  /* height:600px; */
+  
+  /* overflow-y: hidden; */
+  /* box-shadow: 1px 1px 1px 1px gray;  */
+}
+
+
+@media screen and (max-width: 600px) 
+{
+  /* for header logo */
+  .logo
+{
+  font-size: 2em;
+  position: fixed;
+  left: 0;
+}
+  /* for header */
+
+  .userInfo
+  {
+    background-color:#212F3C;
+    /* position: fixed; */
+    top:0;
+    width: 100%;
+  }
+
+  /* user details */
+  #userImg
+{
+  position: fixed;
+  right: 7em;
+width:6%;
+}
+#userName
+{
+  position: fixed;
+  top: 5em;
+right: 6em;
+} 
+  /* #sideNav
+  {
+    display: none;
+  } */
+
+
+  #menu{
+      width:10%;
+      height: auto;
+  }
+  /* to change side nav bar icon size */
+  .fa-lg{
+    size: 8em;
+    }
+/* to hide side nav bar text */
+#menu-item
+{
+  display: none; 
+}
+  
+}

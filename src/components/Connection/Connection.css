@@ -1,11 +1,66 @@
-
-
-#heading_app{
-    color: black;
-}
-.container_main{
-    display :flex;
-    flex-direction: column;
+.Main{
+    height: 450px;
+    width : 400px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 #576ea0, 0 6px 20px 0 #576ea0;
+    position: relative;
+    left:35%;
+    top:90px;
+    overflow-x: hidden;
+}
+/* #Connect{
+    background: #2e4a86;
+    position: relative;
+    top:350px;
+    left:580px; 
+} */
+#Connect:hover{
+    background:#37538f;
+    color: rgb(107, 223, 213);
+}
+#fblogo{
+    width:200px;
+    height: 200px;
+    position: relative;
+    bottom:110px;
+    left: 65px;
+}
+
+.msg{
+    position: relative;
+    top: 22px;
+}
+
+.msg p{
+    position: relative;
+    right: 200px;
+    top: 175px;
+    width:360px;
+    /* bottom:50px; */
+    font-family: cursive;
+    font-size: 18px;
+}
+#hpst{
+    position: relative;
+    right:150px;
+    padding-top: 5px;
+    font-family: cursive;
+    font-size: 20px;
+    color:#C2185B;
+    font-weight:bold;
+}
+
+.fbbtn{
+    cursor: pointer;
+}
+
+#emoji{
+    width: 80px;
+    height: 55px;
+    position: relative;
+    top: 115px;
+    left: 40px;
 }

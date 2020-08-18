@@ -1,0 +1,57 @@
+.maininfo{
+    position: relative;
+    top:60px;
+}
+.title{
+    color: #212F3C;
+    position: relative;
+    left:720px;
+    top:100px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+.card1{
+    width:300px; 
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top:140px;
+    left:262px;
+    margin-left: 50px;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+.card1 p{
+    width:240px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.card1:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+#cp{
+    width:300px; 
+    height:180px;
+    border-radius: 10px;
+     
+}
+#sp{
+    width:300px; 
+    height:180px;
+    border-radius: 10px;
+     
+}
+#pp{
+    width:300px; 
+    height:180px;
+    border-radius: 10px;
+     
+}

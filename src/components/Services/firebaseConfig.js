@@ -16,5 +16,7 @@ var firebaseConfig = {
       
   // export default firebase;
   export const firebaseApp = firebase.initializeApp(firebaseConfig);
+  firebaseApp.analytics();
  
-  export default firebaseApp.firestore();
+  export default firebaseApp;
+  // export default firebaseApp.firestore();

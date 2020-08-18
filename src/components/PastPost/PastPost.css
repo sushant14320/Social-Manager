@@ -1,0 +1,50 @@
+.pastpost{
+   margin-left: 50px;
+   margin-top: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+ 
+  /* box-shadow: 5px 10px 8px #888888; */
+}
+
+#spanFlex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  row-gap: 4px;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.boxPastPost{
+  box-shadow: 1px 1px 1px 1px gray; 
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  width:750px;
+  position: relative;
+  top:20px;
+  left:350px;
+  margin-top:40px;
+  margin-bottom: 40px;
+  background-color: #212F3C ;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+}
+
+#justify{
+  justify-content: space-evenly;
+}
+
+#recentPost{
+  color: skyblue;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+#historyPost{
+  position: relative;
+  left: 340px;
+}

@@ -25,7 +25,7 @@ import {firebaseApp} from '../Services/firebaseConfig';
       .signInWithEmailAndPassword(email, password)
       .then(() => {
         
-        history.push('/dashboard');
+        history.push('/connection');
       })
       .catch((err) => {
         alert('Something wrong with your email or Password. Try again!');
@@ -35,7 +35,7 @@ import {firebaseApp} from '../Services/firebaseConfig';
   const { currentUser } = useContext(AuthContext);
 
   if (currentUser) {
-    return <Redirect to="/dashboard" />;
+    return <Redirect to="/connection" />;
   }
    
         return ( 

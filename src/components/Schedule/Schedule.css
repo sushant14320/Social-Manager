@@ -1,0 +1,60 @@
+#FlexDiv{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.BtnPostSc{
+    display: inline-block;
+    margin-left: 800px; 
+    padding-left: 0px; 
+    /* padding-right: 80px; */
+    padding-right: 5px;
+    color: white;
+    font-size: 21px;
+    padding-bottom: 8px;
+    padding-top: 9px;
+    position: relative;
+    background-color: #283747;
+    font-weight: bold;
+    border: 1px solid rgb(155, 184, 201);
+    border-radius: 5px;
+    cursor: pointer;   
+}
+#msgEmpty{
+    position: relative;
+    left: 299px;
+    top: -20px;
+    letter-spacing: 2px;
+    color: rgb(111, 108, 114);
+    font-size: 25px;
+}
+
+.datetimeContainer{
+    /* margin-left: 299px; */
+    position: relative;
+    left: 300px;
+    top: -80px;
+}
+
+#head_s{
+    position: relative;
+    left: 299px;
+    top: -30px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(111, 108, 114);
+}
+
+#lblDateTime{
+    color: rgb(49, 47, 47);
+    font-size: 28px;
+}
+
+#txtAreaSc{
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    border-radius: 10px;
+    left:250px;
+}

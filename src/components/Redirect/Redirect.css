@@ -1,46 +1,79 @@
+.maincontent{
+    position: relative;
+    top:150px;
+    left:70px;
+}
 .BtnPost{
     
-        /* margin-top: 300px;
-        margin-left: -85px; */
-        color: black;
-        font-size: 22px;
-        padding-right: 15px;
-        padding-top: 9px;
-        padding-left: 15px;
+        /* margin-top: 300px;*/
+        margin-left: -400px; 
+        display: inline-block;
+        color: white;
+        font-size: 21px;
+        position: relative;
+        top: 30px;
+        left: 1215px;
+        width: 100px;
+        margin-bottom: 20px;
         padding-bottom: 8px;
-        background-color: white;
+        padding-top: 9px;
+        background-color: #283747;
         font-weight: bold;
         border: 1px solid rgb(155, 184, 201);
         border-radius: 5px;
-        cursor: pointer;
-    
+        cursor: pointer;   
 }
 
 .BtnPost:hover{
-    background: #3b5998;
+    background: #405974;
     color: white;
 }
 
 #WlcUser{
-    margin-left: 500px;
+    margin-left: 450px;
+    margin-top: 60px;
 }
 
 #WlcUser_2{
-    margin-left: 570px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: 430px;
+  bottom:30px;
 }
 
-/* .DivConatiner{
-   
-   
-    
-   border: 1x solid;
-    
-} */
-section#FlexDiv{
+section#FlexDiv_createP{
     display: flex;
     flex-direction: column;
 }
 
-.txtArea{
-    border: none;
+#txtArea{
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    border-radius: 10px;
+    left: 420px;
+}
+
+#LinkPost{
+    background-color: #3b5998;
+        font-weight: bold;
+        border: 1px solid rgb(155, 184, 201);
+        border-radius: 5px;
+        color: white;
+    position: relative;
+    left: 590px;
+    top: 572px;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+#LinkPost:hover{
+    border: outset;
 }
