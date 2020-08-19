@@ -10,14 +10,12 @@ from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 //import SchedulePost from '../SchedulePost/SchedulePost'
-
+// import TabAContent from '../TabAContent'
+// import TabBContent from '../TabBContent'
 import PastPost from '../PastPost/PastPost'
 import Schedule from '../Schedule/Schedule'
 import Redirec from '../Redirect/Redirect'
 import User from '../user/user';
-
-
-
 import './DashboardNavBar.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

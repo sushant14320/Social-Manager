@@ -3,22 +3,26 @@
     display: flex;
     flex-direction: column;
 }
-.BtnPostSc{
+.Sch{
     display: inline-block;
     margin-left: 800px; 
-    padding-left: 0px; 
-    /* padding-right: 80px; */
-    padding-right: 5px;
+    padding-left: 10px; 
+    padding-right: 10px;
     color: white;
     font-size: 21px;
     padding-bottom: 8px;
     padding-top: 9px;
     position: relative;
+    top:20px;
     background-color: #283747;
     font-weight: bold;
     border: 1px solid rgb(155, 184, 201);
     border-radius: 5px;
     cursor: pointer;   
+}
+.Sch:hover{
+    background: #405974;
+    color: white;
 }
 #msgEmpty{
     position: relative;

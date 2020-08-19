@@ -202,7 +202,7 @@ deletePost = (key) =>{
 
                   <textarea type="textarea" id="txtAreaSc" value={this.state.message} onChange={e =>this.handleChange(e)} />
                                     
-                   <button  className="BtnPostSc" onClick={ () => { this.schedule(); this.openModal();}}>Schedule</button>
+                   <button  className="Sch" onClick={ () => { this.schedule(); this.openModal();}}>Schedule</button>
 
                  
                  <hr/>

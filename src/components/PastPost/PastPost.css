@@ -20,6 +20,7 @@
 .boxPastPost{
   box-shadow: 1px 1px 1px 1px gray; 
   padding-left: 25px;
+  padding-top:20px;
   display: flex;
   flex-direction: column;
   width:750px;
