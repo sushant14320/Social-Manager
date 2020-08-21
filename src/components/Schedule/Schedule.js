@@ -100,7 +100,7 @@ class Schedule extends Component {
 
       var x = document.getElementById("datetime").value;
 
-                  Axios.post(`https://graph.facebook.com/622192698426061/feed?published=false&message=${this.state.message}&scheduled_publish_time=2020-08-18T11:40:00&access_token=EAAI5mxwgW1MBABr1qsgLy8JAO794yttt3nXimg4ZCke3BZBZBQAgoHzbFzQx11UJ83nI8dACkhXMWy6iiTGlWBEX5ZBhYRH87PCsFRJa7ZApLZANZB1BHLqTbqRHD71vvNb08l8XgEmVUZBvDk6LxNbI5NAKlon3JKRjkoMhbnT2PCMMR9xDfJIvgZBkxv3eArJ4ZD`)
+                  Axios.post(`https://graph.facebook.com/622192698426061/feed?published=false&message=${this.state.message}&scheduled_publish_time=${x}&access_token=EAAI5mxwgW1MBABr1qsgLy8JAO794yttt3nXimg4ZCke3BZBZBQAgoHzbFzQx11UJ83nI8dACkhXMWy6iiTGlWBEX5ZBhYRH87PCsFRJa7ZApLZANZB1BHLqTbqRHD71vvNb08l8XgEmVUZBvDk6LxNbI5NAKlon3JKRjkoMhbnT2PCMMR9xDfJIvgZBkxv3eArJ4ZD`)
                       .then(res =>{
                         let result  =  res.data
                         console.log("success" + result.id);
