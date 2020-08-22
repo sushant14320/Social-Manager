@@ -11,7 +11,7 @@ class PastPost extends Component {
             emptyFeed:false,
             PastDataPost:[],
             limitPost:[],
-            count: 0
+            
           }
     }
 
