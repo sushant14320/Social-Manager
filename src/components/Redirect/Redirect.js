@@ -57,13 +57,12 @@ class Redirect extends Component {
           access_To:rrr[0].access_token,
           name:rrr[0].name,
           email:rrr[0].email
-          // picture:rrr[0].picture.data.url
+          
 
         })
         console.log(this.state.userID)
         console.log(this.state.access_To)
-        // console.log(this.state.email)
-        // console.log(this.state.picture);
+       
         
 
       })
@@ -77,13 +76,7 @@ class Redirect extends Component {
 
      post = () =>{
 
-    //   let FireData = firebaseApp.database().ref("/posts");
-    //   let PostData = FireData.push()
-
-    //   PostData.set({
-    //     post: this.state.message
-    // })
-
+    
        
         Axios.post(`https://graph.facebook.com/622192698426061/feed?`,{
           message: this.state.message,
@@ -110,9 +103,7 @@ class Redirect extends Component {
         
         <div className="maincontent">
 
-            {/* <NavLink id="LinkPost" to="/redirect">Past Post</NavLink>
-
-            <NavLink id="Link" to="/schedule">Past Post</NavLink> */}
+            
                 <Modal visible={this.state.visible} width="500" height="250" effect="fadeInUp" onClickAway={() => this.closeModal()}>
                     <div>
                     <FontAwesomeIcon icon={faCheckCircle} color="green" style={{position:'relative',top:'40px',left:'220px'}} size='3x' className='check'/>
@@ -129,20 +120,20 @@ class Redirect extends Component {
 
 <div className="DivConatiner">
         
-        {/* <h1 id="WlcUser">Welcome, {this.state.name}</h1> */}
+      
         <h2 id="WlcUser_2">Go ahead and POST !</h2>
 
 </div>
 
 
 
-<section id="FlexDiv_createP">           
+  <section id="FlexDiv_createP">           
                   
-<textarea type="textarea" id="txtArea" placeholder="Type your message here" value={this.state.message} onChange={e =>this.handleChange(e)} />
-                  
- <button  className="BtnPost" onClick={this.post}>Post</button>
+                  <textarea type="textarea" id="txtArea" placeholder="Type your message here" value={this.state.message} onChange={e =>this.handleChange(e)} />
+                                    
+                  <button  className="BtnPost" onClick={this.post}>Post</button>
 
-</section>
+  </section>
 
         </div>  
         

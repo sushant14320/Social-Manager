@@ -13,7 +13,7 @@ export default function index() {
     FacebookLogin()
   }
   return (
-    <div className="Main">
+<div className="Main">
 
     <div className="fbbtn">
     <button id="Connect" 
@@ -26,14 +26,14 @@ export default function index() {
     </div>
 
     <div className="Connectbtn">
-    <img src={fbimg} alt="logo" id='fblogo'/>
+        <img src={fbimg} alt="logo" id='fblogo'/>
     </div>
 
     <div className="msg">
-    <p>Log in to your facebook account to start...<br/> </p>
-    <p id="hpst">Happy Posting !!!!!</p>
-    <img src={emoji} alt="smiley" id="emoji"/>
+          <p>Log in to your facebook account to start...<br/> </p>
+              <p id="hpst">Happy Posting !!!!!</p>
+          <img src={emoji} alt="smiley" id="emoji"/>
     </div>
-    </div>
+</div>
   )
 }

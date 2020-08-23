@@ -17,7 +17,7 @@ function Dashboard ()
 
         return (
  <div>
-   {/* To Display User img & name */}
+   
          {UserInfo}
 <DashboardNavBar></DashboardNavBar>
 <DashboardFooter/> 
